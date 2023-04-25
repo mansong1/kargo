@@ -4,3 +4,7 @@ kind: Kustomization
 resources:
 - deploy.yaml
 - service.yaml
+images:
+- name: nginx
+  newName: nginx
+  newTag: 1.23.2
